@@ -1,0 +1,7 @@
+{
+  "seleniumAfterScript": "",
+  "arcAfterScript": "\n\n/** --- Snippet: Status code is 200 --- **/\nvar statusCode = getValueOf(\"status_code\");\nif(statusCode !== 200) {\n\treturn 1;\n}\n/** --- End Snippet --- **/",
+  "restAfterScript": "var statusCode = getValueOf(\"status_code\");\nif(statusCode == \"200\"){return 0;}\nelse{return 1;}",
+  "uiRecordAfterScript": "",
+  "mySqlAfterScript": ""
+}
